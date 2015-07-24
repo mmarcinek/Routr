@@ -20,3 +20,18 @@ To get started:
 `gulp watch`
 
   * Starts the local web server
+ 
+##To Do:
+
+  * API - drivers, trips, legs, admins
+  * Interface
+    * Sass - mixins, partials
+    * clean up panel
+    * Google Maps Controls
+ * Javscript - Angular, modules with map.js
+ * Map 
+   * Clear route
+   * change route color
+   * choose start/end location
+   * get circle/rectangle shapes working
+   * add support for "legs"
