@@ -28,8 +28,9 @@ To get started:
     * Sass - mixins, partials
     * clean up panel
     * Google Maps Controls
- * Javscript - Angular, modules with map.js
- * Map 
+
+* Javascript - Angular, modules with map.js
+* Map 
    * Clear route
    * change route color
    * choose start/end location
