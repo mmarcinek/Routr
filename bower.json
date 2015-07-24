@@ -1,0 +1,27 @@
+{
+  "name": "routr",
+  "version": "1.0.0",
+  "authors": [
+    "Taylor Daugherty <mdaugherty6@gmail.com>"
+  ],
+  "description": "Get from point A to B.  Or A to F",
+  "main": "index.html",
+  "keywords": [
+    "routing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+    "jquery": "*",
+    "materialize": "*",
+    "fontawesome": "~4.3.0",
+    "underscore": "~1.8.3",
+    "normalize.css": "~3.0.3"
+  }
+}

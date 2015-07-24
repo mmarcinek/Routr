@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nature's Garden</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+
+	<link href="css/vendor/font-awesome.css" rel="stylesheet">
+  <link href="css/vendor/materialize.css" rel="stylesheet">
+  <link href="css/vendor/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script src = "js/vendor/jquery.js"></script>
+  <script src = "js/vendor/materialize.js"></script>
+  <script src = "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=drawing,places"></script>
+  <script src = "js/map.js"></script>
+</head>
+<body>
+
+	<div id="panel">
+		<div class = "hide-button">
+			<div class = "side-button">
+		  		<a id="hide" class="waves-effect waves-light btn blue accent-1">
+		  		<i class="fa fa-arrow-right"></i> Hide</a>
+		  </div>
+	  </div>
+
+		<form id="location-form">
+
+			<div class = "input-field row">
+		  	<input id="address" type="text" autocomplete="off">
+		  </div>
+
+		  <div class="buttons">
+		  	<div class = "side-button">
+			  	<a id ="add" class="waves-effect waves-light btn"><i class="fa fa-map-marker"></i> Add</a>
+		  	</div>
+		  	<div class = "side-button">
+		  		<a id ="clear" class="waves-effect waves-light btn"><i class="fa fa-times"></i> Clear</a>
+		  	</div>
+		  </div>
+
+		</form>
+
+		<div id="addresses">
+		</div>
+
+	</div>
+
+
+	<div id="map-canvas"></div>
+
+</body>
+</html>
